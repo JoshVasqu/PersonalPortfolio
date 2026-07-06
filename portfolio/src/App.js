@@ -70,6 +70,8 @@ function SiteInformation() {
     <div>
       <h1>Site Information</h1>
       <p>This site was created using React and showcases my portfolio, projects, and contact information.</p>
+      <p>Hosting for this site was handled through Netlify. Through it I am able to handle automated deployments.</p>
+      <p>With each push to GitHub Netlify handles the rest.</p>
     </div>
     </>
   );
