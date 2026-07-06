@@ -43,8 +43,6 @@ function ProjectPage() {
       <p>Here are some of the projects I've worked on:</p>
       <ul>
         <li>Project 1: A web application for managing tasks.</li>
-        <li>Project 2: A mobile app for tracking fitness activities.</li>
-        <li>Project 3: A personal portfolio website.</li>
       </ul>
     </div>
     </>
@@ -66,6 +64,17 @@ function ContactPage() {
   );
 }
 
+function SiteInformation() {
+  return (
+    <>
+    <div>
+      <h1>Site Information</h1>
+      <p>This site was created using React and showcases my portfolio, projects, and contact information.</p>
+    </div>
+    </>
+  );
+}
+
 export default function App() {
   return (
     <div>
@@ -73,6 +82,8 @@ export default function App() {
       <hr />
       <AboutPage />
       <MyButton />
+      <hr />
+      <SiteInformation />
       <hr />
       <ProjectPage />
       <hr />
