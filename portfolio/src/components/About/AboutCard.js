@@ -9,12 +9,9 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
             Hi everyone! I’m <span className="purple">Joshua Vasquez</span>{" "}
-            from <span className="purple">Texas, United States of America</span>.
-            <br />
-            I’m currently working as a{" "}
+            from <span className="purple">Texas, United States of America</span>. I’m currently working as a{" "}
             <span className="purple">Substitute Teacher</span> at{" "}
-            <span className="purple">Katy ISD</span>.
-            <br />I hold an Bachleor Degree in{" "}
+            <span className="purple">Katy ISD</span>. I hold an Bachleor Degree in{" "}
             <span className="purple">Computer Science</span> from{" "}
             <span className="purple">UTSA</span>.
             <br />
@@ -31,7 +28,7 @@ function AboutCard() {
               <ImPointRight /> Painting ✍️
             </li>
             <li className="about-activity">
-              <ImPointRight /> Family 🌍
+              <ImPointRight /> Family and Friends 🌍
             </li>
           </ul>
         </blockquote>
