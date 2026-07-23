@@ -8,7 +8,7 @@ function Home2() {
     <Container fluid className="home-about-section" id="about">
       <Container>
         <Row>
-          <Col md={8} className="home-about-description">
+          <Col md={16} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
@@ -23,7 +23,7 @@ function Home2() {
               <i>
                 <b className="purple">
                   {" "}
-                  JavaScript, C++, Rust, Node.js, and Java{" "}
+                  JavaScript, Python, PHP, C#, and Java{" "}
                 </b>
               </i>
               — and I enjoy working across both backend and frontend stacks.
@@ -33,24 +33,12 @@ function Home2() {
               <i>
                 <b className="purple">
                   {" "}
-                  Web Applications, Blockchain Solutions,{" "}
+                  Web Applications, Traditional AI in Video Games, CI/CD Pipeline{" "}
                 </b>
               </i>
               and exploring new ways to bridge on-chain and off-chain systems.
               <br />
-              <br />
-              Whenever possible, I love building projects with
-              <b className="purple"> Node.js </b> and modern frameworks like{" "}
-              <i>
-                <b className="purple">React.js</b> and{" "}
-                <b className="purple">Next.js</b>.
-              </i>
             </p>
-          </Col>
-          <Col md={4} className="myAvtar">
-            <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
-            </Tilt>
           </Col>
         </Row>
       </Container>
